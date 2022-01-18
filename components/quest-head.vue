@@ -1,7 +1,7 @@
 <template>
   <div class="room-head" :class="`room-${room}`">
     <div class="head-content">
-      <h1 class='head-title'>Квест комнаты и Шоу программы</h1>
+      <h1 class='head-title'>Квест комнаты</h1>
 
       <div class='room-box'>
       </div>

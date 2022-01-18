@@ -2,7 +2,7 @@
   <div class="room-info">
     <div class="room-texts">
       <div>
-        <h2 class="info-title">Квест комнаты и Шоу программы</h2>
+        <h2 class="info-title">Квест комнаты</h2>
         <p class='info-des'>
           Хотите попасть в загадочный городок Гравити фолз или в реальную игру
           Майнкрафт?
@@ -22,6 +22,25 @@
           Все задания разнообразные и интересные, направленные на саморазвитие и
           самовыражение подростка.
         </p>
+
+
+        <h2 class="info-title info-title-price">Прайс</h2>
+        <h2 class="info-title">Квест комнаты (от 6 до 12 лет):</h2>
+        <ul>
+          <li>
+            <p class="info-des">
+              Гравити Фолз (от 3-6 чел, от 40мин до 60 мин) - <span>12 000 тг</span> + 1
+              000 на каждого след. ребенка (max до 13 детей)
+            </p>
+          </li>
+          <li>
+            <p class="info-des mb-4">
+              Майнкрафт (от 3-6 чел, от 40мин до 60 мин) - <span>14 000 тг</span> + 1 000
+              на каждого след. ребенка (max до 13 детей)
+            </p>
+          </li>
+        </ul>
+
         <!--        <ul class='room-info-list'>-->
         <!--          <li v-for='item in roomInfo.list'>{{item}}</li>-->
         <!--        </ul>-->
@@ -155,11 +174,23 @@ export default {
   max-width: 1000px;
   margin: auto;
 
+
   .info-title {
+    font-size: 24px;
     margin-bottom: 24px;
+    &.info-title-price {
+      text-align: center;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
   }
+
   .info-des {
-    line-height: 1.3;
+    font-size: 16px;
+    line-height: 1.4;
+    span {
+      color: #ee3239;
+    }
     margin-bottom: 16px;
     &--red {
       color: #ee3239;

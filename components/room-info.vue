@@ -17,6 +17,15 @@
     </div>
     <div class='images-box'>
       <div class="images" v-viewer>
+        <video
+          :src="roomVideo"
+          controls
+
+        >
+          Sorry, your browser doesn't support embedded videos, but don't worry,
+          you can <a :href="roomVideo">download it</a>
+          and watch it with your favorite video player!
+        </video>
         <img class='image' v-for="src in roomImages" :key="src" :src="src">
       </div>
     </div>
@@ -118,7 +127,11 @@ const Images = [
     '/room3/IMG_0663.jpeg',
   ]
 ]
-
+const Viedeos = [
+  '/room1/1й зал 150кв.м.mp4',
+  '/room2/2й зал 100кв.м.mp4',
+  '/room3/3й зал 170кв.м.mp4',
+]
 
 export default {
   name: 'room-info',
@@ -129,6 +142,9 @@ export default {
     },
     roomImages(){
       return Images[this.room - 1]
+    },
+    roomVideo(){
+      return Viedeos[this.room - 1]
     },
     whatsapp() {
       return  `https://web.whatsapp.com/send?phone=77071222020`
@@ -218,6 +234,10 @@ export default {
   }
 }
 
-
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 </style>

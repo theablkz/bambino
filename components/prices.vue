@@ -1,23 +1,9 @@
 <template>
   <div>
     <div class="room-info">
+      <h1 class='title'>Шоу программы</h1>
       <div class="room-texts">
         <div>
-          <h2 class="info-title">Квест комнаты (от 6 до 12 лет):</h2>
-          <ul>
-            <li>
-              <p class="info-des">
-                Гравити Фолз (от 3-6 чел, от 40мин до 60 мин) - <span>12 000 тг</span> + 1
-                000 на каждого след. ребенка (max до 13 детей)
-              </p>
-            </li>
-            <li>
-              <p class="info-des mb-4">
-                Майнкрафт (от 3-6 чел, от 40мин до 60 мин) - <span>14 000 тг</span> + 1 000
-                на каждого след. ребенка (max до 13 детей)
-              </p>
-            </li>
-          </ul>
           <h2 class="info-title">Квесты в залах (от 7 лет):</h2>
           <ul>
             <li>
@@ -559,6 +545,12 @@ export default {
 }
 ul {
   list-style-type: decimal;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
 
 </style>
