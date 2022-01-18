@@ -1,10 +1,8 @@
 <template>
   <div>
     <main-page />
-    <our-rooms />
-    <slider />
-    <our-videos />
     <our-halls />
+    <our-services />
     <footer-component />
 
   </div>
@@ -18,9 +16,10 @@ import OurRooms from '../components/our-rooms'
 import OurVideos from '../components/our-videos.vue'
 import Slider from '../components/slider.vue'
 import MainPage from '../components/main-page'
+import OurServices from '../components/our-services'
 export default {
   name: 'IndexPage',
-  components: { MainPage, OurRooms, HeaderComponent,FooterComponent, Slider, OurVideos, OurHalls },
+  components: { OurServices, MainPage, OurRooms, HeaderComponent,FooterComponent, Slider, OurVideos, OurHalls },
 }
 </script>,
 

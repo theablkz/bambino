@@ -26,7 +26,7 @@
           <li><nuxt-link to='/contacts'>НАШИ ЗАЛЫ</nuxt-link></li>
           <li><nuxt-link to='/price'>ЦЕНЫ</nuxt-link></li>
           <li><nuxt-link to='/gallery'>ГАЛЕРЕЯ</nuxt-link></li>
-          <li><nuxt-link to='/'>КВЕСТЫ</nuxt-link></li>
+          <li><nuxt-link to='/quests'>КВЕСТЫ</nuxt-link></li>
           <li><nuxt-link to='/contacts'>КОНТАКТЫ</nuxt-link></li>
         </ul>
         <div class='header-main-image-box'>

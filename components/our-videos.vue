@@ -4,61 +4,34 @@
       <h1 class="our-videos-block-title">ВИДЕО</h1>
       <div class="our-videos-block-videos">
         <video
-          src="/video_2021-11-30_03-04-52.mp4"
+          src="/room1/1й зал 150кв.м.mp4"
           controls
-          
+
         >
           Sorry, your browser doesn't support embedded videos, but don't worry,
-          you can <a href="/video_2021-11-30_03-04-52.mp4">download it</a>
+          you can <a href="/room1/1й зал 150кв.м.mp4">download it</a>
+          and watch it with your favorite video player!
+        </video>
+        <video
+          src="/room2/2й зал 100кв.м.mp4"
+          controls
+
+        >
+          Sorry, your browser doesn't support embedded videos, but don't worry,
+          you can <a href="/room2/2й зал 100кв.м.mp4">download it</a>
+          and watch it with your favorite video player!
+        </video>
+        <video
+          src="/room3/3й зал 170кв.м.mp4"
+          controls
+
+        >
+          Sorry, your browser doesn't support embedded videos, but don't worry,
+          you can <a href="/room3/3й зал 170кв.м.mp4">download it</a>
           and watch it with your favorite video player!
         </video>
 
-        <video
-          src="/video_2021-11-30_03-04-52.mp4"
-          controls
-          poster="/4-492x295.jpg"
-        >
-          Sorry, your browser doesn't support embedded videos, but don't worry,
-          you can <a href="/video_2021-11-30_03-04-52.mp4">download it</a>
-          and watch it with your favorite video player!
-        </video>
-        <video
-          src="/video_2021-11-30_03-04-52.mp4"
-          controls
-          poster="/4-492x295.jpg"
-        >
-          Sorry, your browser doesn't support embedded videos, but don't worry,
-          you can <a href="/video_2021-11-30_03-04-52.mp4">download it</a>
-          and watch it with your favorite video player!
-        </video>
-        <video
-          src="/video_2021-11-30_03-04-52.mp4"
-          controls
-          poster="/4-492x295.jpg"
-        >
-          Sorry, your browser doesn't support embedded videos, but don't worry,
-          you can <a href="/video_2021-11-30_03-04-52.mp4">download it</a>
-          and watch it with your favorite video player!
-        </video>
-        <video
-          src="/video_2021-11-30_03-04-52.mp4"
-          controls
-          poster="/4-492x295.jpg"
-        >
-          Sorry, your browser doesn't support embedded videos, but don't worry,
-          you can <a href="/video_2021-11-30_03-04-52.mp4">download it</a>
-          and watch it with your favorite video player!
-        </video>
-        <video
-          src="/video_2021-11-30_03-04-52.mp4"
-          controls
-          poster="/4-492x295.jpg"
-        >
-          Sorry, your browser doesn't support embedded videos, but don't worry,
-          you can <a href="/video_2021-11-30_03-04-52.mp4">download it</a>
-          and watch it with your favorite video player!
-        </video>
-        
+
       </div>
     </div>
   </div>

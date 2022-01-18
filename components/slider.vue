@@ -24,8 +24,19 @@ export default {
   components: { VueSlickCarousel },
   data: () => ({
     otherBuilds: [
-      'https://images.ctfassets.net/hrltx12pl8hq/61DiwECVps74bWazF88Cy9/2cc9411d050b8ca50530cf97b3e51c96/Image_Cover.jpg?fit=fill&w=480&h=270',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjq_N1ngW356j474_Uwe5g3GFf20a0-NK5-8emZk_cXc4eh6aAp24XbH6V_1edbS0P4L0&usqp=CAU',
+      '/gallery/IMG_4969.JPG',
+      '/gallery/IMG_5051.JPG',
+      '/gallery/IMG_5067.JPG',
+      '/gallery/IMG_5069.JPG',
+      '/gallery/IMG_5076.JPG',
+      '/gallery/IMG_5100.JPG',
+      '/gallery/IMG_5940.JPG',
+      '/gallery/IMG_7848.JPG',
+      '/gallery/IMG_8909.JPG',
+      '/gallery/IMG_9133.JPG',
+      '/gallery/IMG_9173.JPG',
+      '/gallery/IMG_9320.JPG',
+      '/gallery/IMG_9348.JPG',
     ],
     settings: {
       dots: false,
@@ -45,6 +56,6 @@ export default {
 .apartment-image {
   width: 100%;
   object-fit: cover;
-  height: 700px;
+  height: 850px;
 }
 </style>

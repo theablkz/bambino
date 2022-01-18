@@ -77,8 +77,45 @@ const RoomText = [
 ]
 const Images = [
   [
-    '/3-1026x616.jpg',
-    '/4-492x295.jpg'
+    '/room1/IMG_0565.jpeg',
+    '/room1/IMG_0566.jpeg',
+    '/room1/IMG_0568.jpeg',
+    '/room1/IMG_0573.jpeg',
+    '/room1/IMG_0579.jpeg',
+    '/room1/IMG_0581.jpeg',
+    '/room1/IMG_0582.jpeg',
+    '/room1/IMG_0584.jpeg',
+    '/room1/IMG_0588.jpeg',
+    '/room1/IMG_0591.jpeg',
+    '/room1/IMG_0595.jpeg',
+    '/room1/IMG_0675.jpeg',
+  ],
+  [
+    '/room2/IMG_0138.jpeg',
+    '/room2/IMG_0598.jpeg',
+    '/room2/IMG_0600.jpeg',
+    '/room2/IMG_0607.jpeg',
+    '/room2/IMG_0608.jpeg',
+    '/room2/IMG_0612.jpeg',
+    '/room2/IMG_0615.jpeg',
+    '/room2/IMG_0616.jpeg',
+    '/room2/IMG_0618.jpeg',
+    '/room2/IMG_0620.jpeg',
+    '/room2/IMG_0622.jpeg',
+  ],
+  [
+    '/room3/IMG_0643.jpeg',
+    '/room3/IMG_0644.jpeg',
+    '/room3/IMG_0645.jpeg',
+    '/room3/IMG_0646.jpeg',
+    '/room3/IMG_0648.jpeg',
+    '/room3/IMG_0649.jpeg',
+    '/room3/IMG_0651.jpeg',
+    '/room3/IMG_0652.jpeg',
+    '/room3/IMG_0653.jpeg',
+    '/room3/IMG_0657.jpeg',
+    '/room3/IMG_0660.jpeg',
+    '/room3/IMG_0663.jpeg',
   ]
 ]
 
